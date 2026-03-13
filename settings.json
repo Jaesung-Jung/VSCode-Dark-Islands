@@ -163,8 +163,8 @@
 			"transition": "background 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important"
 		},
 		".part.sidebar .monaco-list-row.selected": {
-			"background": "transparent !important",
-			"box-shadow": "none !important",
+			"background": "linear-gradient(135deg, rgba(49,50,56,0.5), rgba(37,38,44,0.35)) !important",
+			"box-shadow": "inset 0 0 0 1px rgba(255,255,255,0.04) !important",
 			"outline": "none !important"
 		},
 		".part.sidebar .monaco-list-row.focused": {
@@ -175,6 +175,11 @@
 		".part.sidebar .monaco-list-row.focused.selected": {
 			"background": "linear-gradient(135deg, rgba(49,50,56,0.7), rgba(37,38,44,0.5)) !important",
 			"box-shadow": "inset 0 0 0 1px rgba(255,255,255,0.07) !important",
+			"outline": "none !important"
+		},
+		".part.sidebar .monaco-list:focus .monaco-list-row.selected:not(.focused)": {
+			"background": "linear-gradient(135deg, rgba(49,50,56,0.58), rgba(37,38,44,0.42)) !important",
+			"box-shadow": "inset 0 0 0 1px rgba(255,255,255,0.06) !important",
 			"outline": "none !important"
 		},
 		".part.sidebar .monaco-list:focus .monaco-list-row.focused": {
