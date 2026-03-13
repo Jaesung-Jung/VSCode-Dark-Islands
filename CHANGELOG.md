@@ -7,6 +7,11 @@
 - Why: Why the change was made.
 -->
 
+## 2026-03-13 14:40:54 +09:00
+- Files: settings.json, CHANGELOG.md
+- Summary: Refined the Islands Dark workbench layout by tightening floating panel spacing, restructuring the activity bar sizing, and simplifying breadcrumb, icon, and status bar treatments.
+- Why: Make panel alignment more consistent across sidebar, editor, bottom panel, and auxiliary bar while reducing visual noise in the surrounding chrome.
+
 ## 2026-03-13 13:34:20 +09:00
 - Files: settings.json, README.md, CHANGELOG.md
 - Summary: Added a configurable file icon glow variable to the Custom UI stylesheet and documented how to disable the glow effect.
