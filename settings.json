@@ -69,6 +69,7 @@
       "--islands-panel-top": "6px",
       "--islands-bg-canvas": "#121216",
       "--islands-bg-surface": "#181a1d",
+      "--islands-file-icon-glow-filter": "drop-shadow(0 0 2.5px currentColor)",
       "background-color": "var(--islands-bg-canvas) !important"
     },
     ".part.sidebar": {
@@ -442,7 +443,7 @@
       "margin-top": "-2px !important"
     },
     ".monaco-icon-label.file-icon::before": {
-      "filter": "drop-shadow(0 0 2.5px currentColor)",
+      "filter": "var(--islands-file-icon-glow-filter, drop-shadow(0 0 2.5px currentColor)) !important",
       "opacity": "1 !important"
     },
     ".letterpress": {

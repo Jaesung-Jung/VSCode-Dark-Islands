@@ -230,6 +230,7 @@ All key visual properties are controlled by CSS custom properties defined at the
 |--------------|-------------|----------------|
 | `--islands-bg-canvas` | `#121216` | Deep background behind all panels (workbench, title bar, status bar, activity bar) |
 | `--islands-bg-surface` | `#181a1d` | Panel/surface background (chat input, editor widgets) |
+| `--islands-file-icon-glow-filter` | `drop-shadow(0 0 2.5px currentColor)` | File icon glow; set to `none` to disable it |
 
 These two colors define the theme's depth. The canvas is the darker base layer visible between panels, while the surface is the slightly lighter color used for interactive elements. To override the theme's panel colors (sidebar, editor, terminal backgrounds), use VS Code's `workbench.colorCustomizations` in your settings.
 
